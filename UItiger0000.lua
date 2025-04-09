@@ -1,3 +1,16 @@
+print("Break");
+local v0 = require(game:GetService("ReplicatedStorage").Notification);
+v0.new("<Color=Cyan>Bầu Trời Blue Lông Ku Black<Color=/>"):Display();
+wait(0.5);
+v0.new("<Color=Yellow>Jack Thì Bỏ Con<Color=/>"):Display();
+wait(1);
+repeat
+    wait();
+until game.Players.LocalPlayer
+if  not game:IsLoaded() then
+    game.Loaded:Wait();
+End
+
 local Configs_HUB = {
   Cor_Hub = Color3.fromRGB(25, 25, 25),
   Cor_Options = Color3.fromRGB(0,0,0 / 255,153,0),
