@@ -3,7 +3,7 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao1
 local Window = redzlib:MakeWindow({
   Title = "HTG",
   SubTitle = "by Huynhngochoang",
-  SaveFolder = "Redz | hoangtigerhubv0.lua"
+  SaveFolder = "Htg | hoangtigerhubv0.lua"
 })
 
 Window:AddMinimizeButton({
