@@ -1,8 +1,8 @@
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
 
 local Window = redzlib:MakeWindow({
-  Title = "TBoy Roblox",
-  SubTitle = "by real_tbeo",
+  Title = "HTG",
+  SubTitle = "by Huynhngochoang",
   SaveFolder = "Redz | redz lib v5.lua"
 })
 
@@ -14,7 +14,7 @@ Window:AddMinimizeButton({
 local Tab = Window:MakeTab({"Discord", "info"})
 
 Tab:AddDiscordInvite({
-    Name = "redz Hub | Community",
+    Name = "Tiger",
     Description = "Join our discord community to receive information about the next update",
     Logo = "rbxassetid://95105936784502",
     Invite = "http://discord.gg/7aR7kNVt4g",
