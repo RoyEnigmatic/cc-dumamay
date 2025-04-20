@@ -94,20 +94,6 @@ local Section = Tab2:AddSection({"Farm"})
 
 
 
-Tab2:AddButton({
-
-    Name = "Run Redz Hub",
-
-    Description = "Chạy Redz Hub (Auto Farm, Fruit Sniper)",
-
-    Callback = function()
-
-        RunScript("loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)")
-
-    end
-
-})
-
 
 
 Tab2:AddToggle({
