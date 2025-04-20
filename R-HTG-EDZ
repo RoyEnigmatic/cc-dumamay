@@ -46,6 +46,14 @@ local Dropdown = Tab2:AddDropdown({
 
 local Section = Tab2:AddSection({"Farm"})
 
+Tab2:AddButton({
+    Name = "Run Redz Hub",
+    Description = "Chạy Redz Hub (Auto Farm, Fruit Sniper)",
+    Callback = function()
+        RunScript("Redz Hub", "https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau")
+    end
+})
+
 Tab2:AddToggle({
     Name = "Tự Động lên cấp",
     Description = "Tự động farm cấp",
