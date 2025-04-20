@@ -102,7 +102,7 @@ Tab2:AddButton({
 
     Callback = function()
 
-        RunScript("Redz Hub", "loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)")
+        RunScript("loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)")
 
     end
 
