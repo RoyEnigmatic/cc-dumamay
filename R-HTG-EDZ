@@ -102,7 +102,12 @@ Tab2:AddButton({
 
     Callback = function()
 
-        RunScript("Redz Hub", "https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau")
+        RunScript("Redz Hub", "local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)")
 
     end
 
@@ -611,7 +616,7 @@ local function StopFastAttack()
 end
 
 -- Button tắt Fast Attack
-Tab9:AddToggle({
+Tab:AddToggle({
     Name = "Đánh tự động",
     Description = "",
     Callback = function()
