@@ -545,6 +545,34 @@ Tab3:AddToggle({
 })
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Tab4 = Window:MakeTab({"Trái/Đột Kích", "cherry"})
+
+local Tab5 = Window:MakeTab({"Stats", "signal"})
+
+local Tab6 = Window:MakeTab({"Dịch Chuyển", "locate"})
+
+local Tab7 = Window:MakeTab({"Giao Diện", "user"})
+
+local Tab8 = Window:MakeTab({"Cửa Hàng", "shoppingCart"})
+
+local Tab9 = Window:MakeTab({"Khác", "settings"})
+
+
 -- Biến trạng thái Fast Attack
 _G.FastAttackStrix_Mode = false
 _G.Fast_Delay = 0.1 -- Giá trị mặc định khi tắt
@@ -599,31 +627,3 @@ redzlib:MakeNotification({
     Icon = "rbxassetid://95105936784502",
     Time = 5
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-local Tab4 = Window:MakeTab({"Trái/Đột Kích", "cherry"})
-
-local Tab5 = Window:MakeTab({"Stats", "signal"})
-
-local Tab6 = Window:MakeTab({"Dịch Chuyển", "locate"})
-
-local Tab7 = Window:MakeTab({"Giao Diện", "user"})
-
-local Tab8 = Window:MakeTab({"Cửa Hàng", "shoppingCart"})
-
-local Tab9 = Window:MakeTab({"Khác", "settings"})
-
-
